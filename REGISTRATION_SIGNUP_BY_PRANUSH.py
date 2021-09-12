@@ -36,9 +36,7 @@ if user_reply=='Y':
     pass
 else:
     new_user=input('Enter Username')
-    print(new_user)
     new_password=input('Enter Password')
-    print(new_user+new_password)
     with open(filename_1,'a') as file_name_1:
         file_name_1.write('\n'+new_user+'\n')
     pass_file=(new_user+'.txt')
